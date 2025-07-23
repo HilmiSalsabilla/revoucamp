@@ -3,9 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RevoU Camp</title>
+  <title>RevoU Coding Camp</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+  <p class="text-3xl pb-4 text-blue-500 font-bold pl-6 pt-6 bg-yellow-100">Hello World!</p>
+  <hr>
+  <p>Halo, nama saya <br> Hilmi Salsabilla</p>
+  <!-- heading -->
   <h1>Hello World!</h1>
+  <h2>Hello World!</h2>
+  <h3>Hello World!</h3>
+  <h4>Hello World!</h4>
+  <h5>Hello World!</h5>
+  <p>Teks ini ada <b>bold</b> nya, <i>italic</i> nya</p>
+  <p>ini tulisan yang ke <sub>bawah</sub> dan ke <sup>atas</sup></p>
+  <h1>Bullet Point</h1>
+  <!-- unordered list -->
+  <ul> 
+    <li>Pisang <p>merupakan buag yang sering dimakan monyet</p></li>
+    <li>Mangga</li>
+    <li>Apel</li>
+  </ul>
+  <!-- ordered list -->
+  <h1>Urutan Angka</h1>
+  <p>Cara menjalankan Vscode</p>
+  <ol>
+    <li>Buka VScodenya</li>
+    <li>Open folder project yang akan dijalankan</li>
+    <li>Buat file index.html</li>
+    <li>Isi file index.html diawali dengan html:5</li>
+    <li>Jalankan dengan LivePrivew extensions dari Microsoft</li>
+  </ol>
+  <h1>Tabel</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alfred</td>
+        <td>alfred@mail.com</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Budy</td>
+        <td>budy@mail.com</td>
+        <td>Indonesia</td>
+      </tr>
+      <tr>
+        <td>Charlie</td>
+        <td>charlie@mail.com</td>
+        <td>USA</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Gambar</h1>
+  <img src="images/revou.png" height="150px" alt="Logo RevoU">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZgwKQf9wI1x605UNm6SuJE3mO1X4-5R6_8g3Ao6HQ2m7z2re-1-ruzbeSeKsz2Roc7wU&usqp=CAU" alt="Mobil Merah">
+
+  <h1>Link</h1>
+  <p>Ini adalah link <a href="https://www.revou.co/">RevoU</a></p>
+  <a href="./second.html">Second HTML</a>
+  <a href="#lorem">Go to lorem</a>
+
+  <h1>Form Contact Us</h1>
+  <form action="">
+    <label for="">Nama</label>
+    <input type="text" name="nama" id="" placeholder="Tuliskan nama anda ...">
+    <br><br>
+    <label for="">Umur</label>
+    <input type="number" min="0" max="120" placeholder="19">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="" id="">
+    <br><br>
+    <label for="">Jenis Kelamin</label>
+    <input type="radio" value="male" name="jenis kelamin">Laki-laki
+    <input type="radio" value="female" name="jenis kelamin"> Perempuan
+    <br><br>
+    <label>Makanan Favorit</label>
+    <select name="" id="">
+      <option value="Nasi Goreng">Nasi Goreng</option>
+      <option value="Bakso">Bakso</option>
+      <option value="Sate">Sate</option>
+      <option value="Mie Goreng">Mie Goreng</option>
+    </select>
+    <br><br>
+    <label for="">Comment</label>
+    <br><br>
+    <textarea name="Comment" id="" rows="5" placeholder="Tulis komentar anda disini"></textarea>
+    <br>
+    <input type="checkbox">Saya setuju dengan syarat dan ketentuan
+    <br><br>
+    <input type="submit" value="Kirim" name="" id="">
+  </form>
+
+  <p id="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore delectus distinctio porro dolor ducimus magnam deserunt facilis, blanditiis laboriosam nulla facere excepturi perferendis voluptatum, ipsam obcaecati accusantium? Ipsam, quae itaque.</p>
 </body>
 </html>
